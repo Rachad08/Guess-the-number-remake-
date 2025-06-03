@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess the number</title>
+        <link rel="stylesheet" href="assets/css/page2.css">
+    </head>
+    <body id="start-game">
+        <audio id="winsong" src="assets/ressources/success-fanfare-trumpets-6185.mp3"></audio>
+        <audio id="losesong" src="assets/ressources/metal-impact-1-83105.mp3"></audio>
+        <div class = "box-game">
+            <h1 class = "guess-title">Guess the Mystery Number</h1>
+            <input type="text" class="input-field">
+            <button id = "button">Guess</button>
+            <p class = "attempts-left">Attempts left : <span id="attempts">3</span></p>
+            <p id="msg"></p>
+            <button id = "restart">RESTART</button>
+        </div>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

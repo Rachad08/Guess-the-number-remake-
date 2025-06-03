@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica;
+    background-image: url('../img/image.jpg');
+    background-position: center;
+    font-size: 120%;
+    background-blend-mode: darken;
+}
+
+.box-game{
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    border: 7px solid #00a2ff;
+    border-radius: 20px;
+    width: 50%;   
+    padding: 2%;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    box-shadow: 0.5px 0.5px 20px rgb(255, 255, 255);
+    line-height: 210%;
+}
+.ready {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.guess-attempts{
+    font-size: 110%;
+}
+
+input{
+    width: 15%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    border: #0076ba solid 2px;
+    border-radius: 5px;
+    padding-top: 0 ;
+    padding-bottom: 0;
+    outline: none;
+}
+
+input:focus{
+    border: #0076ba solid 3px;
+}
+
+.attempts-left{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+a{
+    margin-left: 2%;
+    border: #ffffff solid;
+    background-color: #0076ba;
+    border-radius: 10px;
+    height: 45px;
+    transform: translateY(-2px);
+    color: white;
+    font-size: 120%;
+    transition: all 0.2s ease;
+}
+
+/* button:hover{
+    background-color: white;
+    font-weight: bolder;
+    color: #0076ba;
+    border: #0076ba solid;
+    transform: scale(1.1);
+} */
+ul {
+    list-style: none;
+}
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    font-size: 500%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+a:hover{
+    background-color: white;
+    font-weight: bolder;
+    color: #0076ba;
+    transform: scale(1.1);
+    border: #0076ba solid;
+}
