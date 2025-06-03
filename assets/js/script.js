@@ -76,7 +76,7 @@ function stargame() {
 const musique = new Audio("assets/ressources/room69.opus");
 musique.load();
 musique.loop = true;
-musique.volume = 0.2;
+musique.volume = 0.5;
 
 document.getElementById("start-game").addEventListener("click", () => {
     musique.play(); 
