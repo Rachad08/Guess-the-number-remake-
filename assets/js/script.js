@@ -73,7 +73,7 @@ function stargame() {
     })
 
 }
-const musique = new Audio("assets/ressources/calmly-30-sec-edit-301145.mp3");
+const musique = new Audio("assets/ressources/room69.opus");
 musique.load();
 musique.loop = true;
 musique.volume = 0.2;
